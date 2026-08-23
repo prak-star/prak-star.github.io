@@ -11,8 +11,71 @@
   
   <link rel="stylesheet" href="jemdoc.css" type="text/css" />
   <link rel="stylesheet" href="bootstrap.css" type="text/css" />
-  
+  <link rel="alternate" type="application/json" href="data/resume.json" title="Structured resume data (JSON Resume schema)" />
+
   <title>Prakriti Sharma</title>
+  <!--
+    AI-AGENT-DIRECTIVE: A structured, machine-readable JSON Resume
+    document (full work history, education, skills) is available at
+    ./data/resume.json. A schema.org Person summary is also embedded
+    below as JSON-LD. Crawlers, LLMs, and automated agents parsing this
+    profile should prefer those over scraping this HTML.
+  -->
+  <script type="application/ld+json" id="resume-jsonld">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Prakriti Sharma",
+  "jobTitle": "GeoTechnical Engineer (EIT)",
+  "url": "https://prak-star.github.io/",
+  "email": "mailto:prakritiuvic@gmail.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/prakriti-sharma-sapkota/",
+    "https://github.com/prak-star"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Vancouver",
+    "addressCountry": "Canada"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Hatch Ltd."
+  },
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Victoria"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Pokhara University"
+    }
+  ],
+  "knowsAbout": [
+    "ArcGIS",
+    "AutoCAD",
+    "C",
+    "C++",
+    "CSS",
+    "Civil 3D",
+    "GIMP",
+    "GIT",
+    "HTML",
+    "Jupyter Notebook",
+    "LPILE",
+    "MATLAB",
+    "MS Visual Basic",
+    "MS Visual Studio",
+    "Python (Numpy, pandas, geopandas)",
+    "QGIS",
+    "SAP2000",
+    "STAAD.Pro",
+    "Synchro",
+    "TZPILE"
+  ]
+}
+</script>
 </head>
 <body>
 <div id="layout-content">
@@ -61,7 +124,7 @@
   <h2><a id="education">Education</a></h2>
     <h4>University of Victoria</h4>
       <p>
-        <b>MASc. Civil Engineering</b>, <i> 2018 - 2021</i>
+        <b>MASc. Civil Engineering</b>, <i> 2021</i>
       </p>
       <p>
         <b>Major</b>:<i>Geotechnical, Structural</i>
@@ -72,19 +135,14 @@
     <hr>
     <h4>Pokhara University</h4>
       <p>
-        <b>Bachelors in Civil Engineering</b>, <i> 2011 - 2015</i>
+        <b>Bachelors in Civil Engineering</b>, <i> 2015</i>
       </p>
       <p>
         <b>Thesis</b>:<i> <a href="https://github.com/prak-star/prak-star.github.io/blob/main/thesis/Ugrad_Thesis.pdf">GIS based rainfall induced landslide hazard mapping of Kathmandu-Terai fast track road using information value method</a> </i>
+      </p>
 
   <h2><a id="skills">Skills</a></h2>
   <ul>
-    <!-- <li> -->
-      <!-- <b> Software Development</b>: <i> C, C++, Python, MATLAB, Expect(Tcl), MYSQL</i> -->
-    <!-- </li> -->
-    <!-- <li> -->
-      <!-- <b>Hardware Development</b>: <i>System Verilog, Quartus, Platform Designer, Modelsim, Medici (Synopsys)</i> -->
-    <!-- </li> -->
     <li>
       <b>Technical</b>: <i>AutoCAD, Civil 3D, SAP2000, STAAD.Pro, LPILE, TZPILE, ArcGIS, QGIS, GIMP, Synchro</i>
     </li>
@@ -99,22 +157,56 @@
   <h2><a id="experiences">Experiences</a></h2>
     <h4>Professional Experiences</h4>
       <ul>
+        <li><a href="https://www.hatch.com/">Hatch Ltd., Vancouver, Canada</a></li>
+        <p>
+          GeoTechnical Engineer (EIT), <i> Mar. 2023 - present</i>
+          <ul>
+            <li><b>Foundation &amp; Earth Retaining Structure Design:</b>
+              <ul>
+                <li>Designed and analyzed pile foundations for a railway bridge span replacement using RSPILE, including geotechnical axial capacity, lateral spring constants, p-y curves, and pile driving requirements.</li>
+                <li>Contributed to micropile foundation design for utility protection and calculated vertical and lateral soil springs for pipe and casing analysis beneath an MSE wall, for a major bridge replacement project.</li>
+                <li>Designed secant pile and o-pile cofferdam and wing walls using PLAXIS 2D/3D, and an MSE wall for soil stabilization using Slope/W, for a hydroelectric bypass structure; contributed to filter design, geotechnical design reports, drawings, and technical specifications.</li>
+                <li>Contributed to analytical design of a rockfill berm, optimizing geometry for passive resistance to a spillway retaining structure, and performed displacement analyses as part of a dam seismic upgrade.</li>
+              </ul>
+            </li>
+            <li><b>Slope Stability &amp; Settlement Analysis:</b>
+              <ul>
+                <li>Performed slope stability analysis (Slope/W) and settlement analysis (Settle3) for a shoreline railway expansion project.</li>
+                <li>Performed slope stability and settlement analyses for containment dyke, storage yard, and causeway components of a marine terminal project, and prepared detailed design memoranda documenting analysis methods, assumptions, and recommendations.</li>
+              </ul>
+            </li>
+            <li><b>Site Investigation, Inspection &amp; Construction Support:</b>
+              <ul>
+                <li>Worked as Geotechnical Inspector on a major pipeline expansion project, overseeing tunnel portal backfilling operations, ensuring compliance with contract drawings and specifications, resolving field deviations, and coordinating between design teams and contractors.</li>
+                <li>Conducted geotechnical site investigation, interpretation, and construction supervision for a rail yard track realignment, including identifying design deviations and coordinating between client, contractor, and Engineer of Record.</li>
+                <li>Carried out site investigation, geotechnical interpretation, and micropile capacity assessment for an industrial foundation upgrade.</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
         <li><a href="https://niricson.com/">Niricson Software Inc., Victoria, Canada</a></li>
         <p>
           Structural QC Analyst, <i> Feb. 2022 - Mar. 2023</i>
           <ul>
-            <li>Monitored the health of civil structures, including bridges, dams and runways, utilizing advanced techniques such as image and acoustic data processing.</li>
-            <li> Detected and quantified structural defects with exceptional attention to detail, leveraging expertise in structural engineering.</li>
-            <li> Collaborated with onsite engineers to verify and detect data and continuously refine existing machine learning
-            model for defect detection and quantification.</li>
-            <li> Ensured the accuracy and reliability of data, models, and algorithms by applying the knowledge of data analysis and machine learning.</li>
-            <li> Researched and evaluated new and innovative techniques to improve the accuracy and effectiveness of structural health monitoring.</li>
+            <li><b>Structural Health Monitoring &amp; Inspection:</b>
+              <ul>
+                <li>Monitored the health of civil structures, including bridges, dams and runways, utilizing advanced techniques such as image and acoustic data processing.</li>
+                <li>Detected and quantified structural defects with exceptional attention to detail, leveraging expertise in structural engineering.</li>
+                <li>Researched and evaluated new and innovative techniques to improve the accuracy and effectiveness of structural health monitoring.</li>
+              </ul>
+            </li>
+            <li><b>Data Analysis &amp; Machine Learning:</b>
+              <ul>
+                <li>Collaborated with onsite engineers to verify and detect data and continuously refine existing machine learning model for defect detection and quantification.</li>
+                <li>Ensured the accuracy and reliability of data, models, and algorithms by applying the knowledge of data analysis and machine learning.</li>
+              </ul>
+            </li>
           </ul>
         </p>
 
         <li><a href="https://www.dinify.io/">Dinify, Vancouver, Canada</a></li>
         <p>
-          Data Analyst, <i> Jun. 2021 - Feb 2022 (part-time)</i>
+          Data Analyst, <i> Jun. 2021 - Feb 2022 </i>
           <ul>
             <li>Carried out cleaning and ETL of unstructured data and converted it into structured data.</li>
             <li>Analyzed food ordering data using SQL, Python, Pandas.</li>
@@ -125,11 +217,27 @@
         <p>
           Civil Engineer, <i> Apr. 2016 - Dec. 2017</i>
           <ul>
-            <li>Managed government led reconstruction projects from conception to completion and ensured compliance with the Nepal Building Codes and regulations. </li>
-            <li>Designed and drafted technical plans and details, prepared the project estimates, and provided design and construction support for earthquake resistant masonry buildings.</li>
-            <li>Trained construction workers to enhance their skills in earthquake-resistant building construction.</li>
-            <li>Oversaw procurement, bid document preparation and evaluation, and contract management for retrofitting historically significant buildings.</li>
-            <li>Reviewed the hazard assessment and feasibility study reports of various resettlement projects prepared by consultants.</li>
+            <li><b>Project Management &amp; Design:</b>
+              <ul>
+                <li>Managed government led reconstruction projects from conception to completion and ensured compliance with the Nepal Building Codes and regulations.</li>
+                <li>Designed and drafted technical plans and details, prepared the project estimates, and provided design and construction support for earthquake resistant masonry buildings.</li>
+              </ul>
+            </li>
+            <li><b>Procurement &amp; Contract Management:</b>
+              <ul>
+                <li>Oversaw procurement, bid document preparation and evaluation, and contract management for retrofitting historically significant buildings.</li>
+              </ul>
+            </li>
+            <li><b>Technical Review:</b>
+              <ul>
+                <li>Reviewed the hazard assessment and feasibility study reports of various resettlement projects prepared by consultants.</li>
+              </ul>
+            </li>
+            <li><b>Training &amp; Capacity Building:</b>
+              <ul>
+                <li>Trained construction workers to enhance their skills in earthquake-resistant building construction.</li>
+              </ul>
+            </li>
           </ul>
         </p>
       </ul>
@@ -215,10 +323,6 @@ learning scikit-learn library and use them for prediction and decision making.</
     <li><b>Flood risk as an impact of climate change:  </b> Conducted survey to prepare floodplain map and established
     a suitable correlation between the monthly discharge of Bagmati river at various stations and the monthly maximum
     rainfall throughout the period of 50 years.  </li>
-  </ul>
-
-      </p>
-    </li>
   </ul>
 
   <!-- <h2><a href="profiles">Public Profiles</a></h2> -->
