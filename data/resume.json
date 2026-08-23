@@ -85,7 +85,7 @@
       "name": "Hatch Ltd., Vancouver, Canada",
       "url": "https://www.hatch.com/",
       "position": "GeoTechnical Engineer (EIT)",
-      "startDate": "Mar. 2023",
+      "startDate": "Feb. 2024",
       "endDate": "present",
       "highlights": [
         "Foundation & Earth Retaining Structure Design: Designed and analyzed pile foundations for a railway bridge span replacement using RSPILE, including geotechnical axial capacity, lateral spring constants, p-y curves, and pile driving requirements.",
@@ -100,6 +100,18 @@
       ]
     },
     {
+      "name": "Dinify, Vancouver, Canada",
+      "url": "https://www.dinify.io/",
+      "position": "Data Analyst",
+      "startDate": "Sep. 2023",
+      "endDate": "Dec. 2023",
+      "highlights": [
+        "Carried out cleaning and ETL of unstructured data and converted it into structured data.",
+        "Analyzed food ordering data using SQL, Python, Pandas.",
+        "Visualized patterns and inferred correlations using Excel charts and Pandas."
+      ]
+    },
+    {
       "name": "Niricson Software Inc., Victoria, Canada",
       "url": "https://niricson.com/",
       "position": "Structural QC Analyst",
@@ -111,18 +123,6 @@
         "Structural Health Monitoring & Inspection: Researched and evaluated new and innovative techniques to improve the accuracy and effectiveness of structural health monitoring.",
         "Data Analysis & Machine Learning: Collaborated with onsite engineers to verify and detect data and continuously refine existing machine learning model for defect detection and quantification.",
         "Data Analysis & Machine Learning: Ensured the accuracy and reliability of data, models, and algorithms by applying the knowledge of data analysis and machine learning."
-      ]
-    },
-    {
-      "name": "Dinify, Vancouver, Canada",
-      "url": "https://www.dinify.io/",
-      "position": "Data Analyst",
-      "startDate": "Jun. 2021",
-      "endDate": "Feb 2022",
-      "highlights": [
-        "Carried out cleaning and ETL of unstructured data and converted it into structured data.",
-        "Analyzed food ordering data using SQL, Python, Pandas.",
-        "Visualized patterns and inferred correlations using Excel charts and Pandas."
       ]
     },
     {
