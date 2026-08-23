@@ -47,16 +47,17 @@
     {
       "name": "Technical",
       "keywords": [
+        "PLAXIS 2D/3D",
+        "GeoStudio",
+        "Settle3",
+        "RSPILE",
+        "LPILE",
+        "OpenGround",
         "AutoCAD",
         "Civil 3D",
-        "SAP2000",
         "STAAD.Pro",
-        "LPILE",
-        "TZPILE",
         "ArcGIS",
-        "QGIS",
-        "GIMP",
-        "Synchro"
+        "QGIS"
       ]
     },
     {
@@ -181,24 +182,7 @@
       "url": "https://www.coursera.org/account/accomplishments/verify/YVWCA5KH5G35"
     }
   ],
-  "projects": [
-    {
-      "name": "Tubular Steel Structure",
-      "description": "Designed and analysed tubular steel truss of a building roof using CSA S16:19"
-    },
-    {
-      "name": "Finite Difference Modelling and Analysis",
-      "description": "Constructed Numerical models for the analysis of laterally and axially loaded piles using 2D differential equations and MATLAB."
-    },
-    {
-      "name": "Detailed Survey in Central Region of Nepal",
-      "description": "Conducted surveys including but not limited to: Topographical Survey, Bridge-site Survey ( reciprocal leveling and selection of bridge axis), and Road Alignment Fixing Survey and prepared detailed map using AutoCAD and ArcGIS."
-    },
-    {
-      "name": "Flood risk as an impact of climate change",
-      "description": "Conducted survey to prepare floodplain map and established a suitable correlation between the monthly discharge of Bagmati river at various stations and the monthly maximum rainfall throughout the period of 50 years."
-    }
-  ],
+  "projects": [],
   "courses": {
     "taken": [
       {
