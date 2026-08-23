@@ -1,0 +1,264 @@
+{
+  "$schema": "https://jsonresume.org/schema/",
+  "basics": {
+    "name": "Prakriti Sharma",
+    "label": "Civil Engineer, MASc., EIT",
+    "email": "prakritiuvic@gmail.com",
+    "url": "https://prak-star.github.io/",
+    "location": {
+      "city": "Vancouver",
+      "region": "Canada"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/prakriti-sharma-sapkota/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/prak-star"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Victoria",
+      "highlights": [],
+      "studyType": "MASc. Civil Engineering",
+      "endDate": "2021",
+      "area": "Geotechnical, Structural",
+      "thesis": {
+        "title": "Comparative study of different methods for superstructure-foundation interactions",
+        "url": "http://hdl.handle.net/1828/13654"
+      }
+    },
+    {
+      "institution": "Pokhara University",
+      "highlights": [],
+      "studyType": "Bachelors in Civil Engineering",
+      "endDate": "2015",
+      "thesis": {
+        "title": "GIS based rainfall induced landslide hazard mapping of Kathmandu-Terai fast track road using information value method",
+        "url": "https://github.com/prak-star/prak-star.github.io/blob/main/thesis/Ugrad_Thesis.pdf"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical",
+      "keywords": [
+        "AutoCAD",
+        "Civil 3D",
+        "SAP2000",
+        "STAAD.Pro",
+        "LPILE",
+        "TZPILE",
+        "ArcGIS",
+        "QGIS",
+        "GIMP",
+        "Synchro"
+      ]
+    },
+    {
+      "name": "Programming Tools",
+      "keywords": [
+        "GIT",
+        "MS Visual Studio",
+        "MATLAB",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "MS Visual Basic",
+        "Python (Numpy, pandas, geopandas)",
+        "C",
+        "C++",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Hatch Ltd., Vancouver, Canada",
+      "url": "https://www.hatch.com/",
+      "position": "GeoTechnical Engineer (EIT)",
+      "startDate": "Mar. 2023",
+      "endDate": "present",
+      "highlights": [
+        "Foundation & Earth Retaining Structure Design: Designed and analyzed pile foundations for a railway bridge span replacement using RSPILE, including geotechnical axial capacity, lateral spring constants, p-y curves, and pile driving requirements.",
+        "Foundation & Earth Retaining Structure Design: Contributed to micropile foundation design for utility protection and calculated vertical and lateral soil springs for pipe and casing analysis beneath an MSE wall, for a major bridge replacement project.",
+        "Foundation & Earth Retaining Structure Design: Designed secant pile and o-pile cofferdam and wing walls using PLAXIS 2D/3D, and an MSE wall for soil stabilization using Slope/W, for a hydroelectric bypass structure; contributed to filter design, geotechnical design reports, drawings, and technical specifications.",
+        "Foundation & Earth Retaining Structure Design: Contributed to analytical design of a rockfill berm, optimizing geometry for passive resistance to a spillway retaining structure, and performed displacement analyses as part of a dam seismic upgrade.",
+        "Slope Stability & Settlement Analysis: Performed slope stability analysis (Slope/W) and settlement analysis (Settle3) for a shoreline railway expansion project.",
+        "Slope Stability & Settlement Analysis: Performed slope stability and settlement analyses for containment dyke, storage yard, and causeway components of a marine terminal project, and prepared detailed design memoranda documenting analysis methods, assumptions, and recommendations.",
+        "Site Investigation, Inspection & Construction Support: Worked as Geotechnical Inspector on a major pipeline expansion project, overseeing tunnel portal backfilling operations, ensuring compliance with contract drawings and specifications, resolving field deviations, and coordinating between design teams and contractors.",
+        "Site Investigation, Inspection & Construction Support: Conducted geotechnical site investigation, interpretation, and construction supervision for a rail yard track realignment, including identifying design deviations and coordinating between client, contractor, and Engineer of Record.",
+        "Site Investigation, Inspection & Construction Support: Carried out site investigation, geotechnical interpretation, and micropile capacity assessment for an industrial foundation upgrade."
+      ]
+    },
+    {
+      "name": "Niricson Software Inc., Victoria, Canada",
+      "url": "https://niricson.com/",
+      "position": "Structural QC Analyst",
+      "startDate": "Feb. 2022",
+      "endDate": "Mar. 2023",
+      "highlights": [
+        "Structural Health Monitoring & Inspection: Monitored the health of civil structures, including bridges, dams and runways, utilizing advanced techniques such as image and acoustic data processing.",
+        "Structural Health Monitoring & Inspection: Detected and quantified structural defects with exceptional attention to detail, leveraging expertise in structural engineering.",
+        "Structural Health Monitoring & Inspection: Researched and evaluated new and innovative techniques to improve the accuracy and effectiveness of structural health monitoring.",
+        "Data Analysis & Machine Learning: Collaborated with onsite engineers to verify and detect data and continuously refine existing machine learning model for defect detection and quantification.",
+        "Data Analysis & Machine Learning: Ensured the accuracy and reliability of data, models, and algorithms by applying the knowledge of data analysis and machine learning."
+      ]
+    },
+    {
+      "name": "Dinify, Vancouver, Canada",
+      "url": "https://www.dinify.io/",
+      "position": "Data Analyst",
+      "startDate": "Jun. 2021",
+      "endDate": "Feb 2022",
+      "highlights": [
+        "Carried out cleaning and ETL of unstructured data and converted it into structured data.",
+        "Analyzed food ordering data using SQL, Python, Pandas.",
+        "Visualized patterns and inferred correlations using Excel charts and Pandas."
+      ]
+    },
+    {
+      "name": "National Reconstruction Authority, Kathmandu, Nepal",
+      "url": "http://www.clpiugmali.gov.np/",
+      "position": "Civil Engineer",
+      "startDate": "Apr. 2016",
+      "endDate": "Dec. 2017",
+      "highlights": [
+        "Project Management & Design: Managed government led reconstruction projects from conception to completion and ensured compliance with the Nepal Building Codes and regulations.",
+        "Project Management & Design: Designed and drafted technical plans and details, prepared the project estimates, and provided design and construction support for earthquake resistant masonry buildings.",
+        "Procurement & Contract Management: Oversaw procurement, bid document preparation and evaluation, and contract management for retrofitting historically significant buildings.",
+        "Technical Review: Reviewed the hazard assessment and feasibility study reports of various resettlement projects prepared by consultants.",
+        "Training & Capacity Building: Trained construction workers to enhance their skills in earthquake-resistant building construction."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "name": "Linlab, UVic.",
+      "url": "https://onlineacademiccommunity.uvic.ca/clin/",
+      "position": "Research Assistant",
+      "startDate": "May 2018",
+      "endDate": "Aug 2021",
+      "highlights": [
+        "Developed code to build an extension named \" Soil Spring Module\" to STAAD.Pro using Visual Basic (MS Visual Studio)",
+        "Built Integrated Analysis Process (IAP) to enable the design and analysis of entire structure (fondation and superstructure) together in a single platform.",
+        "Conducted case study on the design and analysis of Kansas Bridge-45 using IAP and verified geotechnical results using LPILE and TZPILE.",
+        "Performed patametric analysis of the bridge design comparing Simplified Boundary Condition, Maximum Allowable Displacement, Equivalent Pile Length and IAP."
+      ]
+    },
+    {
+      "name": "Department of Civil Engineering, UVic.",
+      "url": "https://www.uvic.ca/ecs/civil/index.php",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "Jan. 2018",
+      "endDate": "Aug. 2020",
+      "highlights": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Understanding and Visualizing Data with Python",
+      "highlights": [
+        "Create data visualizations and numerical summaries with Python.",
+        "Identify appropriate analytic techniques for probability and non-probability samples."
+      ],
+      "url": "https://www.coursera.org/account/accomplishments/verify/WLR5MWH9HNRY"
+    },
+    {
+      "name": "Data Analysis with Python",
+      "highlights": [
+        "Manipulate data using dataframes, summarize data, understand data distribution, perform correlation and create data pipelines.",
+        "Perform data analysis using Pandas, Numpy and Scipy; Build and evaluate regression models using machine learning scikit-learn library and use them for prediction and decision making."
+      ],
+      "url": "https://www.coursera.org/account/accomplishments/verify/YVWCA5KH5G35"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tubular Steel Structure",
+      "description": "Designed and analysed tubular steel truss of a building roof using CSA S16:19"
+    },
+    {
+      "name": "Finite Difference Modelling and Analysis",
+      "description": "Constructed Numerical models for the analysis of laterally and axially loaded piles using 2D differential equations and MATLAB."
+    },
+    {
+      "name": "Detailed Survey in Central Region of Nepal",
+      "description": "Conducted surveys including but not limited to: Topographical Survey, Bridge-site Survey ( reciprocal leveling and selection of bridge axis), and Road Alignment Fixing Survey and prepared detailed map using AutoCAD and ArcGIS."
+    },
+    {
+      "name": "Flood risk as an impact of climate change",
+      "description": "Conducted survey to prepare floodplain map and established a suitable correlation between the monthly discharge of Bagmati river at various stations and the monthly maximum rainfall throughout the period of 50 years."
+    }
+  ],
+  "courses": {
+    "taken": [
+      {
+        "category": "Structural Engineering ",
+        "items": [
+          "Advanced Steel Structures",
+          "Structural Dynamics and Earthquake Engineering",
+          "Modelling and Analysis of Bridge Structures",
+          "Structural Analysis II",
+          "Structural Analysis I",
+          "Design of Steel and Timber Structures",
+          "Concrete Technology and Masonry Structures",
+          "Design of RCC Structures"
+        ]
+      },
+      {
+        "category": "Geotechnical Engineering ",
+        "items": [
+          "Numerical Modelling in Geotechnical Engineering",
+          "Soil Mechanics",
+          "Engineering Geology",
+          "Foundation Engineering"
+        ]
+      },
+      {
+        "category": "Data Science ",
+        "items": [
+          "Understanding and Visualizing Data with Python",
+          "Data Analysis with Python"
+        ]
+      }
+    ],
+    "taught": [
+      "Geotechical Engineering",
+      "Mechanics of Soilds",
+      "Sustainable Transportation Systems",
+      "Solid Waste",
+      "Air and Water Pollution"
+    ]
+  },
+  "trainings": [
+    {
+      "role": "Trainer",
+      "items": [
+        "Provided training to the construction workers on \"Earthquake Resistant Building Construction Technology\" organized by National Reconstruction Authority, Ministry of Urban development and Nepal Army. (2017)"
+      ]
+    },
+    {
+      "role": "Participant",
+      "items": [
+        "Successfully completed training on \"Training for Trainers on Earthquake Resistant Building Construction Technology for DLPIU Technical Professionals\" organized by United States Agency for International Development (USAID). (2016)",
+        "Successfully completed training on \"Rebuilding Nepal After Earthquake\" organized by National Society of Earthquake Technology (NSET), and United States Agency for International Development (USAID). (2016)",
+        "Participated in seminar on \"Engineering for Human Rights\" organized by Amnesty International. (2014)"
+      ]
+    },
+    {
+      "role": "Organizer",
+      "items": [
+        "Organized an seminar on \"Energy in Hydro and Micro Hydro Development Status of Nepal\" as an active member of Nepal Civil Engineering Students' Society. (2013)"
+      ]
+    }
+  ]
+}
